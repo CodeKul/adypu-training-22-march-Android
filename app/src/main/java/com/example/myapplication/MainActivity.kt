@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -9,26 +10,42 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
 
 
-    var txtValue: TextView? = null
-    var btnIncreament: Button? = null
-    var number: Int = 0
+    var txtValue:TextView ? =null
+    var btnIncreament:Button ? = null
+    var number:Int = 0
+
+    var bundle = Bundle()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_main)
-
-        txtValue = findViewById(R.id.btnIncreament)
+        txtValue = findViewById(R.id.txt1)
         btnIncreament = findViewById(R.id.btnIncreament)
-
         btnIncreament?.setOnClickListener {
+//            number++
+//            txtValue?.setText(number.toString())
 
-            number++
-            txtValue?.setText(number.toString())
+            bundle.putString("myBundle","From activity first")
+            val intent = Intent(this,MainActivity2::class.java)
+            intent.putExtras(bundle)
+            startActivity(intent)
+
         }
 
-
     }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putInt("counter",number)
+    }
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        number = savedInstanceState.getInt("counter")
+        txtValue?.setText(number.toString())
+    }
+
+
 
     override fun onStart() {
         super.onStart()
