@@ -18,12 +18,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity android:name="com.example.myapplication.recyclerviewdemo.ListMainActivity" >
+        <activity android:name="com.example.myapplication.design.DesignActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.myapplication.recyclerviewdemo.ListMainActivity" >
         </activity>
         <activity android:name="com.example.myapplication.MainActivity3" />
         <activity
@@ -31,8 +33,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.myapplication.MainActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

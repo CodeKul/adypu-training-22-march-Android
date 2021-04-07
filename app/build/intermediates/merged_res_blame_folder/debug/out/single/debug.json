@@ -4,12 +4,36 @@
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_baseline_emoji_emotions_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_baseline_emoji_emotions_24.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_baseline_emoji_emotions_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-hdpi/ic_baseline_emoji_emotions_24.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_baseline_emoji_emotions_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-ldpi/ic_baseline_emoji_emotions_24.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_baseline_desktop_mac_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-mdpi/ic_baseline_desktop_mac_24.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_baseline_emoji_emotions_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-mdpi/ic_baseline_emoji_emotions_24.png"
+    },
+    {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_activity_main2.xml.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main2.xml"
     },
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_baseline_emoji_emotions_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_baseline_emoji_emotions_24.png"
     },
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -44,12 +68,20 @@
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_list_main.xml"
     },
     {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_baseline_emoji_emotions_24.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_baseline_emoji_emotions_24.xml"
+    },
+    {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_activity_design.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_design.xml"
     },
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
@@ -60,12 +92,24 @@
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main3.xml"
     },
     {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_baseline_desktop_mac_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-hdpi/ic_baseline_desktop_mac_24.png"
+    },
+    {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
     },
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_baseline_desktop_mac_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_baseline_desktop_mac_24.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_baseline_desktop_mac_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-ldpi/ic_baseline_desktop_mac_24.png"
     },
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
@@ -88,12 +132,28 @@
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/cardmenu.xml"
     },
     {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_baseline_desktop_mac_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_baseline_desktop_mac_24.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_baseline_emoji_emotions_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_baseline_emoji_emotions_24.png"
+    },
+    {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
     },
     {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_baseline_desktop_mac_24.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_baseline_desktop_mac_24.xml"
+    },
+    {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_baseline_desktop_mac_24.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_baseline_desktop_mac_24.png"
     },
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",

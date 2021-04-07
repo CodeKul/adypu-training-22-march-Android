@@ -11,7 +11,7 @@
 9-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-28:19
+11-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-29:19
 12        android:allowBackup="true"
 12-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,9 +28,9 @@
 19        android:testOnly="true"
 20        android:theme="@style/Theme.MyApplication" >
 20-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-51
-21        <activity android:name="com.example.myapplication.recyclerviewdemo.ListMainActivity" >
+21        <activity android:name="com.example.myapplication.design.DesignActivity" >
 21-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-18:20
-21-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:19-68
+21-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:19-56
 22            <intent-filter>
 22-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:13-17:29
 23                <action android:name="android.intent.action.MAIN" />
@@ -42,22 +42,25 @@
 25-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:27-74
 26            </intent-filter>
 27        </activity>
-28        <activity android:name="com.example.myapplication.MainActivity3" />
-28-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:9-51
-28-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:19-48
-29        <activity
-29-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:9-22:52
-30            android:name="com.example.myapplication.MainActivity2"
-30-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:13-42
-31            android:screenOrientation="portrait" />
-31-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:13-49
-32        <activity
-32-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:9-27:20
-33            android:name="com.example.myapplication.MainActivity"
-33-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:13-41
-34            android:screenOrientation="portrait" >
-34-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:13-49
-35        </activity>
-36    </application>
-37
-38</manifest>
+28        <activity android:name="com.example.myapplication.recyclerviewdemo.ListMainActivity" >
+28-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:9-21:20
+28-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:19-68
+29        </activity>
+30        <activity android:name="com.example.myapplication.MainActivity3" />
+30-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:9-51
+30-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:19-48
+31        <activity
+31-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:9-25:52
+32            android:name="com.example.myapplication.MainActivity2"
+32-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:13-42
+33            android:screenOrientation="portrait" />
+33-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:13-49
+34        <activity
+34-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:9-28:52
+35            android:name="com.example.myapplication.MainActivity"
+35-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:27:13-41
+36            android:screenOrientation="portrait" />
+36-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:28:13-49
+37    </application>
+38
+39</manifest>

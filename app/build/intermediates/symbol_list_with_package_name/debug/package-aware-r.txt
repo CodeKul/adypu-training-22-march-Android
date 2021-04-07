@@ -1345,6 +1345,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_baseline_desktop_mac_24
+drawable ic_baseline_emoji_emotions_24
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
@@ -1467,6 +1469,7 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id checkBox2
 id checkbox
 id checked
 id chip
@@ -1497,6 +1500,7 @@ id dimensions
 id direct
 id disableHome
 id dropdown_menu
+id editText
 id edit_query
 id end
 id enterAlways
@@ -1525,6 +1529,8 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
+id imageView1
 id info
 id invisible
 id italic
@@ -1590,6 +1596,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id radioButton
 id recylerview
 id right
 id right_icon
@@ -1656,6 +1663,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1745,6 +1753,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_design
 layout activity_list_main
 layout activity_main
 layout activity_main2
