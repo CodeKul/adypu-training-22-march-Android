@@ -18,15 +18,25 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity android:name="com.example.myapplication.design.DesignActivity" >
+        <activity android:name="com.example.myapplication.fragmentdemo.FragmentMainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.myapplication.recyclerviewdemo.ListMainActivity" >
+        <activity android:name="com.example.myapplication.splashscreen.SplashActivity" >
         </activity>
+        <activity android:name="com.example.myapplication.design.DesignActivity" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.example.myapplication.recyclerviewdemo.ListMainActivity" />
         <activity android:name="com.example.myapplication.MainActivity3" />
         <activity
             android:name="com.example.myapplication.MainActivity2"

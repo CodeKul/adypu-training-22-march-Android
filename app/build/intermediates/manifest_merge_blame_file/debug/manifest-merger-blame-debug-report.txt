@@ -11,7 +11,7 @@
 9-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-29:19
+11-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-40:19
 12        android:allowBackup="true"
 12-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,9 +28,9 @@
 19        android:testOnly="true"
 20        android:theme="@style/Theme.MyApplication" >
 20-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-51
-21        <activity android:name="com.example.myapplication.design.DesignActivity" >
-21-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-18:20
-21-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:19-56
+21        <activity android:name="com.example.myapplication.fragmentdemo.FragmentMainActivity" >
+21-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-19:20
+21-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:19-68
 22            <intent-filter>
 22-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:13-17:29
 23                <action android:name="android.intent.action.MAIN" />
@@ -42,25 +42,39 @@
 25-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:27-74
 26            </intent-filter>
 27        </activity>
-28        <activity android:name="com.example.myapplication.recyclerviewdemo.ListMainActivity" >
-28-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:9-21:20
-28-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:19-68
+28        <activity android:name="com.example.myapplication.splashscreen.SplashActivity" >
+28-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:9-22:20
+28-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:19-62
 29        </activity>
-30        <activity android:name="com.example.myapplication.MainActivity3" />
-30-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:9-51
-30-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:19-48
-31        <activity
-31-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:9-25:52
-32            android:name="com.example.myapplication.MainActivity2"
-32-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:13-42
-33            android:screenOrientation="portrait" />
-33-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:13-49
-34        <activity
-34-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:9-28:52
-35            android:name="com.example.myapplication.MainActivity"
-35-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:27:13-41
-36            android:screenOrientation="portrait" />
-36-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:28:13-49
-37    </application>
-38
-39</manifest>
+30        <activity android:name="com.example.myapplication.design.DesignActivity" >
+30-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:9-31:20
+30-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:19-56
+31
+32            <!-- <intent-filter> -->
+33            <!-- <action android:name="android.intent.action.MAIN" /> -->
+34
+35
+36            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+37            <!-- </intent-filter> -->
+38        </activity>
+39        <activity android:name="com.example.myapplication.recyclerviewdemo.ListMainActivity" />
+39-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:32:9-71
+39-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:32:19-68
+40        <activity android:name="com.example.myapplication.MainActivity3" />
+40-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:33:9-51
+40-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:33:19-48
+41        <activity
+41-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:34:9-36:52
+42            android:name="com.example.myapplication.MainActivity2"
+42-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:35:13-42
+43            android:screenOrientation="portrait" />
+43-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:13-49
+44        <activity
+44-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:37:9-39:52
+45            android:name="com.example.myapplication.MainActivity"
+45-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:38:13-41
+46            android:screenOrientation="portrait" />
+46-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:39:13-49
+47    </application>
+48
+49</manifest>
