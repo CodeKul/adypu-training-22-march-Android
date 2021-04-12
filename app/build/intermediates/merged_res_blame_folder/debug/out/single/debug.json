@@ -104,6 +104,10 @@
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_activity_broadcaste.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_broadcaste.xml"
+    },
+    {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_baseline_emoji_emotions_24.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-mdpi/ic_baseline_emoji_emotions_24.png"
     },

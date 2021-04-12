@@ -30,7 +30,7 @@ class FragmentMainActivity : AppCompatActivity() {
         button1?.setOnClickListener {
             supportFragmentManager.beginTransaction().apply {
 
-                replace(R.id.framelayout,fragment1)
+              add(R.id.framelayout,fragment1)
                 commit()
             }
         }

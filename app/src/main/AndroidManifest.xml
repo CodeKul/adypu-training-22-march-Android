@@ -9,17 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".fragmentdemo.FragmentMainActivity">
+
+
+        <activity android:name=".broadcastereceiver.BroadcasteActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".fragmentdemo.FragmentMainActivity">
 
         </activity>
-        <activity android:name=".splashscreen.SplashActivity">
-
-        </activity>
+        <activity android:name=".splashscreen.SplashActivity" />
         <activity android:name=".design.DesignActivity">
 
             <!-- <intent-filter> -->

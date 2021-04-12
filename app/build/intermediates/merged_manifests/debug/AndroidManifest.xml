@@ -18,15 +18,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity android:name="com.example.myapplication.fragmentdemo.FragmentMainActivity" >
+        <activity android:name="com.example.myapplication.broadcastereceiver.BroadcasteActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.myapplication.splashscreen.SplashActivity" >
+        <activity android:name="com.example.myapplication.fragmentdemo.FragmentMainActivity" >
         </activity>
+        <activity android:name="com.example.myapplication.splashscreen.SplashActivity" />
         <activity android:name="com.example.myapplication.design.DesignActivity" >
 
             <!-- <intent-filter> -->
