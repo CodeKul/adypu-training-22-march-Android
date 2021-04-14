@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-46:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/64768d234efee278aa173595dd0fab6b/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment-ktx:1.3.2] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/0903e2147747af61d68681e09d11d4b4/jetified-fragment-ktx-1.3.2/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/5d36c944afc7525553082ec1c0775cf4/material-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -51,25 +51,29 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/vaibhav/.gradle/
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/7c9f676589f73eac62d52d63318e394d/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/08bd8de163e4dce53d513b3cb9b25234/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ccdffb566716068309d636fd7dba6a92/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-46:12
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-46:12
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:4:22-76
 application
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-42:19
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:5-44:19
 MERGED from [com.google.android.material:material:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/5d36c944afc7525553082ec1c0775cf4/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/5d36c944afc7525553082ec1c0775cf4/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/fcb11f5e26f0e2154d3fee9403037621/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -81,21 +85,21 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vaibh
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ae1c2b667e56fe1160907ff4132ae6da/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-51
-activity#com.example.myapplication.broadcastereceiver.BroadcasteActivity
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:9-51
+activity#com.example.myapplication.broadcastereceiver.InterrnetCheckActivity
 ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:19-72
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:19-76
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
@@ -106,38 +110,46 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:27-74
-activity#com.example.myapplication.fragmentdemo.FragmentMainActivity
+activity#com.example.myapplication.broadcastereceiver.CustomBRActivity
 ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:9-23:20
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:19-68
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:19-70
+activity#com.example.myapplication.broadcastereceiver.BroadcasteActivity
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:9-84
+	android:name
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:19-72
+activity#com.example.myapplication.fragmentdemo.FragmentMainActivity
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:9-71
+	android:name
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:19-68
 activity#com.example.myapplication.splashscreen.SplashActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:9-65
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:9-65
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:19-62
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:19-62
 activity#com.example.myapplication.design.DesignActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:27:9-35:20
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:19-56
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:27:19-56
 activity#com.example.myapplication.recyclerviewdemo.ListMainActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:34:9-71
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:9-71
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:34:19-68
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:19-68
 activity#com.example.myapplication.MainActivity3
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:35:9-51
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:37:9-51
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:35:19-48
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:37:19-48
 activity#com.example.myapplication.MainActivity2
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:9-38:52
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:38:9-40:52
 	android:screenOrientation
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:38:13-49
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:40:13-49
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:37:13-42
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:39:13-42
 activity#com.example.myapplication.MainActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:39:9-41:52
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:41:9-43:52
 	android:screenOrientation
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:43:13-49
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:40:13-41
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:42:13-41
 uses-sdk
 INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml

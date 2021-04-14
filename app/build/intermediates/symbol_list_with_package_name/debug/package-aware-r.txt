@@ -1478,6 +1478,8 @@ id btn1
 id btn2
 id btn3
 id btnIncreament
+id btnIntenetCheck
+id btnSendMsg
 id button1
 id button2
 id buttonPanel
@@ -1786,8 +1788,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_broadcaste
+layout activity_custom_b_r
 layout activity_design
 layout activity_fragment_main
+layout activity_interrnet_check
 layout activity_list_main
 layout activity_main
 layout activity_main2
