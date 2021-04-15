@@ -9,6 +9,8 @@
         android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -20,15 +22,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity android:name="com.example.myapplication.broadcastereceiver.InterrnetCheckActivity" >
+        <activity android:name="com.example.myapplication.contentprovider.ContentProviderActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.myapplication.broadcastereceiver.CustomBRActivity" >
+        <activity android:name="com.example.myapplication.broadcastereceiver.InterrnetCheckActivity" >
         </activity>
+        <activity android:name="com.example.myapplication.broadcastereceiver.CustomBRActivity" />
         <activity android:name="com.example.myapplication.broadcastereceiver.BroadcasteActivity" />
         <activity android:name="com.example.myapplication.fragmentdemo.FragmentMainActivity" />
         <activity android:name="com.example.myapplication.splashscreen.SplashActivity" />

@@ -1567,6 +1567,7 @@ id line1
 id line3
 id listMode
 id list_item
+id listview
 id masked
 id media_actions
 id message
@@ -1788,6 +1789,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_broadcaste
+layout activity_content_provider
 layout activity_custom_b_r
 layout activity_design
 layout activity_fragment_main
