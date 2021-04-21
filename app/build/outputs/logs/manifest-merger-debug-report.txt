@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-49:12
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-56:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/64768d234efee278aa173595dd0fab6b/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment-ktx:1.3.2] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/0903e2147747af61d68681e09d11d4b4/jetified-fragment-ktx-1.3.2/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/5d36c944afc7525553082ec1c0775cf4/material-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -18,6 +18,9 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/vaibhav/.gradle/cac
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/9811def68cf92acd2dc1bcbd778ac5e4/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/772e55e8695d68f996b73c379b6b33bb/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/fcb11f5e26f0e2154d3fee9403037621/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.room:room-rxjava2:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/e95e50b48fdf965d490ce84aaad0e211/room-rxjava2-2.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ba0b5698cbc31957243d0a511e9389dc/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.media:media:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/6902c015d8dc6cc66eb6dd3d5c644b46/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/38270b9a16d8adef8037c8827b44ac8a/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/4766ec18f97cab2ef017ece40ecc56c8/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -37,6 +40,8 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/vaibh
 MERGED from [androidx.activity:activity:1.2.2] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/cb81f5fe9b257d66bcb3ba02217a4a77/jetified-activity-1.2.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.2.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ae1c2b667e56fe1160907ff4132ae6da/core-1.2.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/6e169f0fffbca92a5aa037f21ef6507d/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/e014be4b25ef017d87e01fb243280d6e/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/38347433463032c5bfaf174920fd3bf1/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/b8a526d91d1433f80bc255868b7dd72f/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/4dfd89864b23f573304fc4d6326895a2/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/206106f115d834f1282b530daecf9d84/print-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -45,26 +50,28 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vaibh
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/96cbf745a2db27cbb5367d7c59651321/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/de6240809eb11f32e6b84f54a1c2cb70/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/f6aa322e78b2ea3358b8ca84f229c3b8/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/d7eea1eee77bc843f942188794f6c464/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/9d25dc472666990b383afef755a351e6/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/729d9cdf5cf43515f2831e07e462ba44/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/aad614d97ae7fbea1f0f8cb617937cc2/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/7c9f676589f73eac62d52d63318e394d/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/08bd8de163e4dce53d513b3cb9b25234/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ccdffb566716068309d636fd7dba6a92/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-49:12
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-56:12
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-49:12
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-56:12
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:11-69
@@ -73,95 +80,127 @@ ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/Androi
 	android:name
 		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:5-72
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:5-73
 	android:name
 		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:22-70
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:5-71
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:5-72
 	android:name
 		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:22-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:5-12:35
+	android:required
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-32
+	android:name
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-47
 application
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:9:5-47:19
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:5-54:19
 MERGED from [com.google.android.material:material:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/5d36c944afc7525553082ec1c0775cf4/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/5d36c944afc7525553082ec1c0775cf4/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/fcb11f5e26f0e2154d3fee9403037621/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/fcb11f5e26f0e2154d3fee9403037621/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ba0b5698cbc31957243d0a511e9389dc/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ba0b5698cbc31957243d0a511e9389dc/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.core:core:1.2.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ae1c2b667e56fe1160907ff4132ae6da/core-1.2.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.2.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ae1c2b667e56fe1160907ff4132ae6da/core-1.2.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/35aa15676b15e71d7eeb4ddfa208956d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/35aa15676b15e71d7eeb4ddfa208956d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ae1c2b667e56fe1160907ff4132ae6da/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:9-51
-activity#com.example.myapplication.contentprovider.ContentProviderActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:9-22:20
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:9-51
+activity#com.example.myapplication.camera.NewActivity
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:9-65
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:19-74
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:19-53
+activity#com.example.myapplication.camera.CameraActivity
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.example.myapplication.dialog.DialogActivity
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:9-68
+	android:name
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:19-56
+activity#com.example.myapplication.room.RoomActivity
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:30:9-55
+	android:name
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:30:19-52
+activity#com.example.myapplication.contentprovider.ContentProviderActivity
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:31:9-77
+	android:name
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:31:19-74
 activity#com.example.myapplication.broadcastereceiver.InterrnetCheckActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:9-25:20
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:32:9-79
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:19-76
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:32:19-76
 activity#com.example.myapplication.broadcastereceiver.CustomBRActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:9-82
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:33:9-73
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:19-70
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:33:19-70
 activity#com.example.myapplication.broadcastereceiver.BroadcasteActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:27:9-75
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:34:9-75
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:27:19-72
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:34:19-72
 activity#com.example.myapplication.fragmentdemo.FragmentMainActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:28:9-71
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:35:9-71
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:28:19-68
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:35:19-68
 activity#com.example.myapplication.splashscreen.SplashActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:9-65
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:9-65
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:19-62
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:19-62
 activity#com.example.myapplication.design.DesignActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:30:9-38:20
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:37:9-45:20
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:30:19-56
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:37:19-56
 activity#com.example.myapplication.recyclerviewdemo.ListMainActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:39:9-71
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:46:9-71
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:39:19-68
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:46:19-68
 activity#com.example.myapplication.MainActivity3
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:40:9-51
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:47:9-51
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:40:19-48
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:47:19-48
 activity#com.example.myapplication.MainActivity2
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:41:9-43:52
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:48:9-50:52
 	android:screenOrientation
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:43:13-49
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:50:13-49
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:42:13-42
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:49:13-42
 activity#com.example.myapplication.MainActivity
-ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:44:9-46:52
+ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:51:9-53:52
 	android:screenOrientation
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:46:13-49
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:53:13-49
 	android:name
-		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:45:13-41
+		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:52:13-41
 uses-sdk
 INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
@@ -194,6 +233,12 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] /home/vaibhav/.gradle/caches/tr
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/772e55e8695d68f996b73c379b6b33bb/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/fcb11f5e26f0e2154d3fee9403037621/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/fcb11f5e26f0e2154d3fee9403037621/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-rxjava2:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/e95e50b48fdf965d490ce84aaad0e211/room-rxjava2-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/e95e50b48fdf965d490ce84aaad0e211/room-rxjava2-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ba0b5698cbc31957243d0a511e9389dc/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ba0b5698cbc31957243d0a511e9389dc/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/6902c015d8dc6cc66eb6dd3d5c644b46/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/6902c015d8dc6cc66eb6dd3d5c644b46/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/38270b9a16d8adef8037c8827b44ac8a/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
@@ -232,6 +277,10 @@ MERGED from [androidx.core:core:1.2.0] /home/vaibhav/.gradle/caches/transforms-2
 MERGED from [androidx.core:core:1.2.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ae1c2b667e56fe1160907ff4132ae6da/core-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/6e169f0fffbca92a5aa037f21ef6507d/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/6e169f0fffbca92a5aa037f21ef6507d/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/e014be4b25ef017d87e01fb243280d6e/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/e014be4b25ef017d87e01fb243280d6e/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/38347433463032c5bfaf174920fd3bf1/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/38347433463032c5bfaf174920fd3bf1/sqlite-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/b8a526d91d1433f80bc255868b7dd72f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/b8a526d91d1433f80bc255868b7dd72f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/4dfd89864b23f573304fc4d6326895a2/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
@@ -248,6 +297,10 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/vaibhav/.gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/de6240809eb11f32e6b84f54a1c2cb70/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/f6aa322e78b2ea3358b8ca84f229c3b8/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/f6aa322e78b2ea3358b8ca84f229c3b8/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/d7eea1eee77bc843f942188794f6c464/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/d7eea1eee77bc843f942188794f6c464/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/9d25dc472666990b383afef755a351e6/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/9d25dc472666990b383afef755a351e6/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/729d9cdf5cf43515f2831e07e462ba44/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -270,3 +323,21 @@ INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/And
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 		ADDED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 		INJECTED from /home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79

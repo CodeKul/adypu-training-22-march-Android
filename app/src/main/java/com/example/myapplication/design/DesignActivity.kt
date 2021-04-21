@@ -11,11 +11,11 @@ class DesignActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_design)
-
-        image = findViewById(R.id.imageView1)
-
-        image?.setBackgroundResource(R.drawable.ic_baseline_desktop_mac_24)
+//        setContentView(R.layout.activity_design)
+//
+//        image = findViewById(R.id.imageView1)
+//
+//        image?.setBackgroundResource(R.drawable.ic_baseline_desktop_mac_24)
 
     }
 }

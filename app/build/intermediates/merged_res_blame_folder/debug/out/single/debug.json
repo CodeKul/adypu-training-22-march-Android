@@ -60,6 +60,10 @@
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash.xml"
     },
     {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_dialog_layout.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/dialog_layout.xml"
+    },
+    {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
     },
@@ -80,8 +84,16 @@
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_activity_new.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_new.xml"
+    },
+    {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_activity_room.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_room.xml"
     },
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
@@ -132,6 +144,10 @@
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_custom_b_r.xml"
     },
     {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_activity_dialog.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_dialog.xml"
+    },
+    {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
@@ -152,12 +168,12 @@
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_list_main.xml"
     },
     {
-        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_layout_dialog.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/layout_dialog.xml"
     },
     {
-        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_activity_design.xml.flat",
-        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_design.xml"
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/anim_top_animation.xml.flat",
@@ -186,6 +202,10 @@
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_activity_camera.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_camera.xml"
     },
     {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
