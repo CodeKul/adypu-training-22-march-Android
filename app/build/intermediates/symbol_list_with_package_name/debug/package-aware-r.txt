@@ -1716,6 +1716,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id txt1
 id txtBattery
+id txtJoke
 id txtMenuName
 id txtMyCollege
 id unchecked
@@ -1806,6 +1807,7 @@ layout activity_main3
 layout activity_new
 layout activity_room
 layout activity_splash
+layout activity_web_service
 layout cardmenu
 layout custom_dialog
 layout design_bottom_navigation_item

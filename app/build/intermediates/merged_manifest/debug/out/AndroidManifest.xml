@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -27,13 +28,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity android:name="com.example.myapplication.camera.NewActivity" />
-        <activity android:name="com.example.myapplication.camera.CameraActivity" >
+        <activity android:name="com.example.myapplication.webservice.WebServiceActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.myapplication.camera.NewActivity" />
+        <activity android:name="com.example.myapplication.camera.CameraActivity" >
         </activity>
         <activity android:name="com.example.myapplication.dialog.DialogActivity" />
         <activity android:name="com.example.myapplication.room.RoomActivity" />

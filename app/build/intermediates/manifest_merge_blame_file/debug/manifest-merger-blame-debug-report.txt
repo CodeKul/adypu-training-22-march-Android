@@ -22,38 +22,38 @@
 14    <uses-permission android:name="android.permission.CAMERA" />
 14-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:5-65
 14-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:22-62
-15
-16    <uses-feature
-16-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:5-12:35
-17        android:name="android.hardware.camera"
-17-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-47
-18        android:required="true" />
-18-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-32
-19
-20    <application
-20-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:5-54:19
-21        android:allowBackup="true"
-21-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:9-35
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.2.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ae1c2b667e56fe1160907ff4132ae6da/core-1.2.0/AndroidManifest.xml:24:18-86
-23        android:debuggable="true"
-24        android:icon="@mipmap/ic_launcher"
-24-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:9-43
-25        android:label="@string/app_name"
-25-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:9-54
-27        android:supportsRtl="true"
-27-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.MyApplication" >
-29-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:9-51
-30        <activity android:name="com.example.myapplication.camera.NewActivity" />
-30-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:9-65
-30-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:19-53
-31        <activity android:name="com.example.myapplication.camera.CameraActivity" >
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:5-66
+15-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:22-64
+16
+17    <uses-feature
+17-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:5-13:35
+18        android:name="android.hardware.camera"
+18-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-47
+19        android:required="true" />
+19-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:9-32
+20
+21    <application
+21-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:5-58:19
+22        android:allowBackup="true"
+22-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.2.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/ae1c2b667e56fe1160907ff4132ae6da/core-1.2.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:9-43
+26        android:label="@string/app_name"
+26-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:9-54
+28        android:supportsRtl="true"
+28-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.MyApplication" >
+30-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:9-51
+31        <activity android:name="com.example.myapplication.webservice.WebServiceActivity" >
 31-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:9-28:20
-31-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:19-56
+31-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:19-64
 32            <intent-filter>
 32-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:13-27:29
 33                <action android:name="android.intent.action.MAIN" />
@@ -65,79 +65,86 @@
 35-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:27-74
 36            </intent-filter>
 37        </activity>
-38        <activity android:name="com.example.myapplication.dialog.DialogActivity" />
-38-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:9-68
-38-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:19-56
-39        <activity android:name="com.example.myapplication.room.RoomActivity" />
-39-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:30:9-55
-39-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:30:19-52
-40        <activity android:name="com.example.myapplication.contentprovider.ContentProviderActivity" />
-40-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:31:9-77
-40-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:31:19-74
-41        <activity android:name="com.example.myapplication.broadcastereceiver.InterrnetCheckActivity" />
-41-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:32:9-79
-41-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:32:19-76
-42        <activity android:name="com.example.myapplication.broadcastereceiver.CustomBRActivity" />
-42-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:33:9-73
-42-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:33:19-70
-43        <activity android:name="com.example.myapplication.broadcastereceiver.BroadcasteActivity" />
-43-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:34:9-75
-43-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:34:19-72
-44        <activity android:name="com.example.myapplication.fragmentdemo.FragmentMainActivity" />
-44-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:35:9-71
-44-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:35:19-68
-45        <activity android:name="com.example.myapplication.splashscreen.SplashActivity" />
-45-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:9-65
-45-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:19-62
-46        <activity android:name="com.example.myapplication.design.DesignActivity" >
-46-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:37:9-45:20
-46-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:37:19-56
-47
-48            <!-- <intent-filter> -->
-49            <!-- <action android:name="android.intent.action.MAIN" /> -->
+38        <activity android:name="com.example.myapplication.camera.NewActivity" />
+38-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:9-56
+38-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:19-53
+39        <activity android:name="com.example.myapplication.camera.CameraActivity" >
+39-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:30:9-32:20
+39-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:30:19-56
+40        </activity>
+41        <activity android:name="com.example.myapplication.dialog.DialogActivity" />
+41-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:33:9-59
+41-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:33:19-56
+42        <activity android:name="com.example.myapplication.room.RoomActivity" />
+42-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:34:9-55
+42-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:34:19-52
+43        <activity android:name="com.example.myapplication.contentprovider.ContentProviderActivity" />
+43-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:35:9-77
+43-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:35:19-74
+44        <activity android:name="com.example.myapplication.broadcastereceiver.InterrnetCheckActivity" />
+44-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:9-79
+44-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:19-76
+45        <activity android:name="com.example.myapplication.broadcastereceiver.CustomBRActivity" />
+45-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:37:9-73
+45-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:37:19-70
+46        <activity android:name="com.example.myapplication.broadcastereceiver.BroadcasteActivity" />
+46-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:38:9-75
+46-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:38:19-72
+47        <activity android:name="com.example.myapplication.fragmentdemo.FragmentMainActivity" />
+47-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:39:9-71
+47-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:39:19-68
+48        <activity android:name="com.example.myapplication.splashscreen.SplashActivity" />
+48-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:40:9-65
+48-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:40:19-62
+49        <activity android:name="com.example.myapplication.design.DesignActivity" >
+49-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:41:9-49:20
+49-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:41:19-56
 50
-51
-52            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-53            <!-- </intent-filter> -->
-54        </activity>
-55        <activity android:name="com.example.myapplication.recyclerviewdemo.ListMainActivity" />
-55-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:46:9-71
-55-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:46:19-68
-56        <activity android:name="com.example.myapplication.MainActivity3" />
-56-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:47:9-51
-56-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:47:19-48
-57        <activity
-57-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:48:9-50:52
-58            android:name="com.example.myapplication.MainActivity2"
-58-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:49:13-42
-59            android:screenOrientation="portrait" />
-59-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:50:13-49
+51            <!-- <intent-filter> -->
+52            <!-- <action android:name="android.intent.action.MAIN" /> -->
+53
+54
+55            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+56            <!-- </intent-filter> -->
+57        </activity>
+58        <activity android:name="com.example.myapplication.recyclerviewdemo.ListMainActivity" />
+58-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:50:9-71
+58-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:50:19-68
+59        <activity android:name="com.example.myapplication.MainActivity3" />
+59-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:51:9-51
+59-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:51:19-48
 60        <activity
-60-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:51:9-53:52
-61            android:name="com.example.myapplication.MainActivity"
-61-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:52:13-41
+60-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:52:9-54:52
+61            android:name="com.example.myapplication.MainActivity2"
+61-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:53:13-42
 62            android:screenOrientation="portrait" />
-62-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:53:13-49
-63
-64        <service
-64-->[androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
-65            android:name="androidx.room.MultiInstanceInvalidationService"
-65-->[androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
-66            android:directBootAware="true"
-66-->[androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
-67            android:exported="false" />
-67-->[androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
-68
-69        <provider
-69-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
-70            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-70-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
-71            android:authorities="com.example.myapplication.lifecycle-process"
-71-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
-72            android:exported="false"
-72-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
-73            android:multiprocess="true" />
-73-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
-74    </application>
-75
-76</manifest>
+62-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:54:13-49
+63        <activity
+63-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:55:9-57:52
+64            android:name="com.example.myapplication.MainActivity"
+64-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:56:13-41
+65            android:screenOrientation="portrait" />
+65-->/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:57:13-49
+66
+67        <service
+67-->[androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+68            android:name="androidx.room.MultiInstanceInvalidationService"
+68-->[androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+69            android:directBootAware="true"
+69-->[androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+70            android:exported="false" />
+70-->[androidx.room:room-runtime:2.2.5] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/94b0b99debb288af315b76aaab53862b/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+71
+72        <provider
+72-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+73            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+74            android:authorities="com.example.myapplication.lifecycle-process"
+74-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+75            android:exported="false"
+75-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+76            android:multiprocess="true" />
+76-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/vaibhav/.gradle/caches/transforms-2/files-2.1/223cfd48e03cce9dc39626275cdb4775/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+77    </application>
+78
+79</manifest>
