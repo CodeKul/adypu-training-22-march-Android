@@ -1485,6 +1485,8 @@ id btnOk
 id btnOpen
 id btnOpenDialog
 id btnSendMsg
+id btnStart
+id btnStop
 id button1
 id button2
 id button3
@@ -1806,6 +1808,7 @@ layout activity_main2
 layout activity_main3
 layout activity_new
 layout activity_room
+layout activity_service
 layout activity_splash
 layout activity_web_service
 layout cardmenu
@@ -1980,7 +1983,9 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
+string start
 string status_bar_notification_info_overflow
+string stop
 string textDialog
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

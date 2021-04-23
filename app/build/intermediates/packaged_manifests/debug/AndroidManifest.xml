@@ -28,16 +28,17 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity android:name="com.example.myapplication.webservice.WebServiceActivity" >
+        <activity android:name="com.example.myapplication.services.ServiceActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.myapplication.camera.NewActivity" />
-        <activity android:name="com.example.myapplication.camera.CameraActivity" >
+        <activity android:name="com.example.myapplication.webservice.WebServiceActivity" >
         </activity>
+        <activity android:name="com.example.myapplication.camera.NewActivity" />
+        <activity android:name="com.example.myapplication.camera.CameraActivity" />
         <activity android:name="com.example.myapplication.dialog.DialogActivity" />
         <activity android:name="com.example.myapplication.room.RoomActivity" />
         <activity android:name="com.example.myapplication.contentprovider.ContentProviderActivity" />
@@ -64,6 +65,7 @@
             android:name="com.example.myapplication.MainActivity"
             android:screenOrientation="portrait" />
 
+        <service android:name="com.example.myapplication.services.MyService" />
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:directBootAware="true"
