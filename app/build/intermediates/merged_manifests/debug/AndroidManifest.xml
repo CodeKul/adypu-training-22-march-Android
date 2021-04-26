@@ -28,15 +28,30 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity android:name="com.example.myapplication.services.ServiceActivity" >
+        <activity android:name="com.example.myapplication.view.ViewActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
         </activity>
-        <activity android:name="com.example.myapplication.webservice.WebServiceActivity" >
+        <activity android:name="com.example.myapplication.services.ServiceActivity" >
         </activity>
+        <activity android:name="com.example.myapplication.webservice.WebServiceActivity" />
         <activity android:name="com.example.myapplication.camera.NewActivity" />
         <activity android:name="com.example.myapplication.camera.CameraActivity" />
         <activity android:name="com.example.myapplication.dialog.DialogActivity" />

@@ -19,19 +19,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".services.ServiceActivity">
-
+        <activity android:name=".view.ViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".webservice.WebServiceActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/*" />
+
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+
+            </intent-filter>
 
         </activity>
+        <activity android:name=".services.ServiceActivity">
+
+        </activity>
+        <activity android:name=".webservice.WebServiceActivity"></activity>
         <activity android:name=".camera.NewActivity" />
-        <activity android:name=".camera.CameraActivity"></activity>
+        <activity android:name=".camera.CameraActivity" />
         <activity android:name=".dialog.DialogActivity" />
         <activity android:name=".room.RoomActivity" />
         <activity android:name=".contentprovider.ContentProviderActivity" />
@@ -58,7 +72,7 @@
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
 
-        <service android:name=".services.MyService"/>
+        <service android:name=".services.MyService" />
     </application>
 
 </manifest>
