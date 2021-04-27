@@ -276,6 +276,10 @@
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_baseline_desktop_mac_24.png"
     },
     {
+        "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout_activity_permission.xml.flat",
+        "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_permission.xml"
+    },
+    {
         "merged": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
         "source": "/home/vaibhav/AndroidStudioProjects/MyApplication/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
     },

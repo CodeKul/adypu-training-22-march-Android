@@ -1479,6 +1479,7 @@ id bottom
 id btn1
 id btn2
 id btn3
+id btnCall
 id btnCancel
 id btnIncreament
 id btnIntenetCheck
@@ -1532,6 +1533,7 @@ id direct
 id disableHome
 id dropdown_menu
 id edit_query
+id edtNumber
 id end
 id end_padder
 id enterAlways
@@ -1811,6 +1813,7 @@ layout activity_main
 layout activity_main2
 layout activity_main3
 layout activity_new
+layout activity_permission
 layout activity_room
 layout activity_service
 layout activity_splash
@@ -1930,12 +1933,14 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string call
 string cancel
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string enter_the_number
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior

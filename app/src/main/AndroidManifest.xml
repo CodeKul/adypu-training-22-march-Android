@@ -8,6 +8,9 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
@@ -19,31 +22,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".view.ViewActivity">
+        <activity android:name=".runtimepermission.PermissionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".view.ViewActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="text/*" />
-
             </intent-filter>
-
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="image/*" />
-
             </intent-filter>
-
         </activity>
-        <activity android:name=".services.ServiceActivity">
-
-        </activity>
-        <activity android:name=".webservice.WebServiceActivity"></activity>
+        <activity android:name=".services.ServiceActivity"></activity>
+        <activity android:name=".webservice.WebServiceActivity" />
         <activity android:name=".camera.NewActivity" />
         <activity android:name=".camera.CameraActivity" />
         <activity android:name=".dialog.DialogActivity" />

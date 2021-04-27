@@ -13,6 +13,8 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -28,12 +30,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity android:name="com.example.myapplication.view.ViewActivity" >
+        <activity android:name="com.example.myapplication.runtimepermission.PermissionActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.myapplication.view.ViewActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
 
@@ -49,8 +53,7 @@
                 <data android:mimeType="image/*" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.myapplication.services.ServiceActivity" >
-        </activity>
+        <activity android:name="com.example.myapplication.services.ServiceActivity" />
         <activity android:name="com.example.myapplication.webservice.WebServiceActivity" />
         <activity android:name="com.example.myapplication.camera.NewActivity" />
         <activity android:name="com.example.myapplication.camera.CameraActivity" />
